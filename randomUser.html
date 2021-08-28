@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        body{
+            background: #2d2013;
+            color: white;
+        }
+        #generator-btn{
+            width: 150px;
+            height: 150px;
+            /* border: 3px solid gray; */
+            border-radius: 50%;
+            border: none;
+            padding: 30px;
+            background-image: linear-gradient(rgb(255, 0, 234), rgb(0, 4, 255));
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #random-user .card{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #random-user .card img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <section class="text-center my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h2>Random User Generator</h2>
+                    <button onclick="generatorUser()" id="generator-btn" class="mt-4">Generator</button>
+                </div>
+                <div id="random-user" class="col-md-6 col-12 my-3">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/randomUser.js"></script>
+</body>
+</html>
